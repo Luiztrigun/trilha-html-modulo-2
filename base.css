@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 10;
 }
 body {
     background-color: #f1f1f1;
@@ -11,28 +11,29 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(26, 11, 107);
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    width: 250px;
+    background-color:rgb(129, 100, 226); 
+    padding: 5px 20px 5px;
+    min-height: 150px;
 }
 .header {
     background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    min-height: 120px;
 }
 .content {
-    background-color: white;
+    background-color: rgb(233, 219, 219);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(129, 100, 226);
     min-height: 150px;
 }
